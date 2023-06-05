@@ -1,0 +1,35 @@
+.campaigns-element-item {
+  @apply h-80 pb-4 flex flex-col justify-between rounded shadow text-center bg-neutral-800 overflow-hidden hover:opacity-90 duration-150 cursor-pointer;
+
+  &-image {
+    @apply w-full h-28 bg-yellow-500 rounded;
+  }
+
+  &-content {
+    @apply h-32 flex justify-between w-full py-2 px-4;
+
+    &-text {
+      @apply w-1/2 h-full;
+
+      &-title {
+        @apply text-white text-2xl text-left m-1 truncate;
+      }
+
+      &-description {
+        @apply h-[calc(112px-40px)] text-gray-400 opacity-50 text-left m-1 truncate;
+      }
+    }
+
+    &-details {
+      @apply w-1/4 flex flex-col justify-center;
+
+      &-goal {
+        @apply mb-2;
+      }
+
+      &-endsAt {
+        @apply mt-2;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply text-yellow-500;
+}
+
+input, textarea, select, option {
+  @apply border-[1px] text-neutral-800 border-yellow-500 border-r-4 rounded-lg py-2 px-4 my-2;
+}
+
+textarea {
+  @apply h-24;
+}
+
+button {
+  @apply p-2 font-bold border-2 border-yellow-500 cursor-pointer;
+}

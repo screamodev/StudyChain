@@ -1,0 +1,11 @@
+.progress-bar-container {
+  @apply relative h-6 w-full bg-neutral-900 rounded my-2;
+
+  &-filler {
+    @apply h-full bg-green-500 rounded duration-500;
+  }
+
+  &-label {
+    @apply right-[35%] drop-shadow-2xl text-white absolute bottom-0 font-bold;
+  }
+}

@@ -1,0 +1,35 @@
+.header {
+  @apply flex sticky bg-neutral-900 top-0 z-50 w-full h-full justify-between items-center max-h-20;
+
+  &-logo {
+    @apply h-16 w-28 flex cursor-pointer bg-yellow-500 rounded-lg overflow-hidden;
+
+    &-text {
+      @apply w-full h-1/2 flex items-center justify-center font-bold shadow-lg bg-blue-500;
+    }
+  }
+
+  &-navbar {
+    @apply flex items-center justify-between p-2;
+
+    &-item {
+      @apply cursor-pointer mr-12 last:mr-0 text-lg hover:text-white duration-150;
+    }
+  }
+
+  &-authorization {
+    @apply flex items-center justify-end p-2;
+
+    &-account-address {
+      @apply w-24 truncate font-bold;
+    }
+
+    &-sign-up {
+      @apply mr-2;
+    }
+
+    &-sign-in {
+      @apply ml-2;
+    }
+  }
+}

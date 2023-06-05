@@ -1,0 +1,11 @@
+.page-layout {
+  @apply w-full h-screen overflow-auto bg-neutral-900 flex justify-center;
+
+  &-container {
+    @apply max-w-7xl w-full h-full;
+
+    &-content {
+      @apply my-20 flex flex-col items-center;
+    }
+  }
+}
