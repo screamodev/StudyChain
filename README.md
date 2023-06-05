@@ -1,2 +1,2 @@
-# graduation_project
-Bachelor graduation project on the topic - "ANALYSIS OF THE FEATURES OF SMART CONTRACTS IN THE ETHEREUM SYSTEM" (АНАЛІЗ ОСОБЛИВОСТЕЙ ЗАСТОСУВАННЯ СМАРТ-КОНТРАКТІВ У СИСТЕМІ ETHEREUM)
+# Graduation project
+Bachelor graduation project on the topic - "Secure Design of Smart Contracts and Mechanisms for Accounting Data Protection in The Ethereum System"
