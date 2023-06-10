@@ -5,4 +5,5 @@ Bachelor graduation project on the topic - "Secure Design of Smart Contracts and
 StudyChain is a decentralized crowdfunding platform based on Ethereum blockchain technology and smart contracts. The platform enables any user to create fundraising campaigns for their own projects or ideas, as well as donate funds to existing campaigns. Using advanced blockchain technology, we ensure transparency and security of all financial transactions within the platform.
 
 ## Deployment
-Project is deployed to goerli ethereum network, and frontend application deployed to vercel. You can test it right here https://study-chain.vercel.app/
+Project is deployed to goerli ethereum network, and frontend application deployed to vercel. You can test it right here:
+https://study-chain.vercel.app/
